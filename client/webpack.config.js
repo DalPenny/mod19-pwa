@@ -21,21 +21,19 @@ module.exports = () => {
       //webpack plugin to generate html file and injects the bundle
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Just Another JATE Text Editor',
+        title: 'Just Another Text Editor',
       }),
       // new MiniCssExtractPlugin(),
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js'
       }),
-      
-      // new WorkboxPlugin.GenerateSW()
 
       //unit 28-creates manifest json
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'JATE Text Editor',
+        name: 'Just Another Text Editor',
         short_name: 'JATE',
         description: 'Never lose your notes again!',
         background_color: '#225ca3',
@@ -56,14 +54,14 @@ module.exports = () => {
     module: {
       rules: [
         {
-   //Add CSS loaders and babel to webpack.
+          //Add CSS loaders and babel to webpack.
           test: /\.css$/i,
           use: ['style-loader', 'css-loader'],
         },
         // babel setup
         {
           test: /\.m?js$/,
-          exclude: /node_modules|bower_components/,
+          exclude: /node_modules/,
           use: {
             loader: 'babel-loader',
             options: {
@@ -72,7 +70,7 @@ module.exports = () => {
             },
           },
         },
-        
+
       ],
     },
   };
