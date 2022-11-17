@@ -39,13 +39,14 @@
  ```
  ## Application
  ## Screenshot
-<img width="1440" alt="Screen Shot" src="assets/images/Screen Shot 1.png"> 
-<img width="1440" alt="Screen Shot" src="assets/images/Screen Shot 2.png">
-<img width="1440" alt="Screen Shot" src="assets/images/Screen Shot 3.png">
-<img width="1440" alt="Screen Shot" src="assets/images/Screen Shot 4.png">
-<img width="1440" alt="Screen Shot" src="assets/images/Screen Shot 5.png">
-<img width="1440" alt="Screen Shot" src="assets/images/Screen Shot 6.png">
-<img width="1440" alt="Screen Shot" src="assets/images/Screen Shot 7.png">
+<img width="1440" alt="Screen Shot" src="assets/images/ScreenShot1.png"> 
+<img width="1440" alt="Screen Shot" src="assets/images/ScreenShot2.png">
+<img width="1440" alt="Screen Shot" src="assets/images/ScreenShot3.png">
+<img width="1440" alt="Screen Shot" src="assets/images/ScreenShot4.png">
+<img width="1440" alt="Screen Shot" src="assets/images/ScreenShot5.png">
+<img width="1440" alt="Screen Shot" src="assets/images/ScreenShot6.png">
+<img width="1440" alt="Screen Shot" src="assets/images/ScreenShot7.png">
+<img width="1440" alt="Screen Shot" src="assets/images/ScreenShot8.png">
   
   ## Github
   Have questions about this project?  
