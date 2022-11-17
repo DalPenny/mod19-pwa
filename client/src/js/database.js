@@ -16,7 +16,9 @@ const initdb = async () =>
   });
 
 // PUT method that accepts some content and adds it to the database
-export const putDb = async (content) => {console.error('PUT-jateDb not implemented');
+export const putDb = async (content) => {
+  console.log('PUT data on to jate Db');
+  // console.error('PUT-jateDb not implemented');
 
 // Create a connection to the jate database and version we want to use.
 const jateDb = await openDB('jate', 1);
@@ -37,7 +39,8 @@ const putrequest = store.put({content});
 
 // Add logic for GET method that gets all the content from the database //unit 23
 export const getDb = async () => {
-  console.error('GET - jate database not implemented ');
+  console.log('GET data from jate database');
+  // console.error('GET - jate database not implemented ');
 
 // Create a connection to the database database and version we want to use.
 const jateDb = await openDB('jate', 1);
