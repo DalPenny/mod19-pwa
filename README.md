@@ -15,7 +15,7 @@
 
   
   ## Description
-  this is a text editor app that runs in the browser, you can add and edit your notes and if you quit out of the application your notes will still be saved
+  this is a text editor app that runs in the browser, you can add and edit your notes and if you quit out of the application your notes will still be saved. you can also download the application to your computer to use this notetaker offline
 
   ## Installation
   use the heroku link and start from there to use the text editor or click on the install button to install the app to your desktop
