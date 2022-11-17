@@ -47,6 +47,8 @@
 <img width="1440" alt="Screen Shot" src="assets/images/ScreenShot6.png">
 <img width="1440" alt="Screen Shot" src="assets/images/ScreenShot7.png">
 <img width="1440" alt="Screen Shot" src="assets/images/ScreenShot8.png">
+<img width="1440" alt="Screen Shot" src="assets/images/manifestjsonscreenshot.png">
+<img width="1440" alt="Screen Shot" src="assets/images/serviceworker.png">
   
   ## Github
   Have questions about this project?  
